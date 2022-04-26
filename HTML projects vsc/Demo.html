@@ -13,33 +13,46 @@
 <body style="background-color:rgb(232, 232, 232);font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: medium; ">
     <main>
         <!--Random comment lmao-->
+
     <style>
         mark{
             background-color: aquamarine;
         }
     </style>
+
     <header>
         <h1>Lorem Ipsum</h1>
         <div>Designed and developed by <b>Ani Soma</b> (<abbr title="SilverStar">SS</abbr>) </div>
         <hr>
         <h2>This is the <mark ><i>beginning!</i></mark></h2>
+        <hr>
+        <h2><i>Navigation <mark>Links:</i><mark></mark></h2>
         <nav>
             <center>
             <a href="#">Troll link lmao</a> <br><br>
-            <a href="#foot" tabindex="1">Jump to the bottom</a> <br> <br>
+            <a href="#foot" tabindex="1">
+                <button style="background-color: darkgray;border-radius: 5px;">
+                Jump to the Bottom
+                </button>
+            </a> 
+            <br><br>
             </center>
         </nav>
+
     </header>
     
     <center>
         <p>Click right <a href="#earth" tabindex="1">here</a> to view the Earth rotating.</p><br>
         <hr><div style="color: rgb(44, 50, 50);">"All It Takes Is One Bad Day To Reduce The Sanest Man Alive To Lunacy."</div><hr>
         <figure>
-            <figcaption>Textures and patterns</figcaption>
-            <a href="https://images.unsplash.com/photo-1641900914379-5d31b1ec6f31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" target="_blank"> 
-                <img src="https://images.unsplash.com/photo-1641900914379-5d31b1ec6f31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" width=50% alt="Texture">
+
+            <figcaption style="font-weight: 300;"><b>The Killing Joke</b></figcaption>
+            <a href="joker.jpg" target="_blank"> 
+                <img src="joker.jpg" width=50% alt="Joker">
             </a>
+
             <br><br>
+
             <figcaption>Earth</figcaption>
             <a href= "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" target="_blank">
                 <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" width=50% alt="Programming">
@@ -53,37 +66,83 @@
             <br><br>
         </figure>
         <hr>
-        <a href="https://www.google.com/search?q=troll&rlz=1C1PNBB_enIN970IN970&oq=troll&aqs=chrome..69i57j0i433i512j0i131i433i512l2j0i433i512l2j0i131i433i512l2j46i3j0i433.1971j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
+        <a href="FProject.html" target="_blank">
             <button style="background-color: darkgrey;border-radius: 5px;">
-                Troll
+                Final Project 
             </button>
         </a>
         <hr><br>
-        
+        <div style="font-size: x-large;">
+            <mark><i><b>Feedback Form:</b></i></mark>
+        </div>
+        <br><hr>
     </center>
     
-    <div>
-        <a href="https://www.flaticon.com/free-icons/education" title="education icons" tabindex="2" target="_blank">Education icons created by Freepik - Flaticon</a>
-    </div>
-    <br><hr>
-    <div>Thoughts about the Webpage?</div>
+    <section id="Review_and_data">
     <form>
-        <input type="text" required placeholder="Feedback">
-        <button type="submit">Submit</button>  
+        <label for="feedback">Thoughts about the Webpage?</label>
+        <input type="text" id="feedback" required placeholder="Feedback">
+        <br><hr>
+        <label for="nl">Want to subscribe to our weekly newsletter?</label>
+        <input type="email" id="nl" placeholder="xyz@gmail.com">
+        <br>
+        <hr>
+        <div>
+            <label for="exp">How was your experience with the accessibility of the webpage :</label>
+        <br>
+        <label for="Good">Good</label>
+        <input type="radio" id="Good" name="exp" value="G"><br>
+        <label for="Bad">Bad</label>
+        <input type="radio" id="Bad" name="exp" value="B"><br>
+        <label for="Nuetral">Nuetral</label>
+        <input type="radio" id="Nuetral" name="exp" value="N"><br>
+        <br><hr>
+        </div>
+
+        <div>
+            <label for="device">Which device are you viewing this website on :</label>
+            <select id="device" name="device">
+                <option value="" disabled selected hidden>Choose...</option>
+                <option value="laptop">Laptop/Desktop</option>
+                <option value="mobile">Mobile phone</option>
+                <option value="tablet">Tablet</option>
+                <option value="screen_reader">Screen Reader</option>
+            </select>
+            <br><hr>
+        </div>
+
+        <div>
+            <label for="rating">How would you rate the website design: </label>
+            <input type="number" id="rating" name="rating" min="0" max="10">
+            <br><hr>
+        </div>
+
+        <center>
+            <button style="background-color: darkgray;border-radius: 5px;" type="submit">Submit</button>
+        </center><hr>
+
     </form>
-    <footer id="foot">&copy; <abbr title="SilverStar">SS</abbr></footer>
-    <hr>
-    <address>
-        Written by <a href="https://www.google.com/search?q=random&rlz=1C1PNBB_enIN970IN970&oq=random&aqs=chrome..69i57j0i433i512l9.11472j0j7&sourceid=chrome&ie=UTF-8">John Doe</a><br>
-        Visit us at: xyz.cm <br>
-        1748 Boulevard st LA <br>
-    </address>
+    </section>
+
+    <footer id="foot">
+        <address>
+            Written by <a href="https://www.google.com/search?q=random&rlz=1C1PNBB_enIN970IN970&oq=random&aqs=chrome..69i57j0i433i512l9.11472j0j7&sourceid=chrome&ie=UTF-8">John Doe</a><br>
+            Visit us at: xyz.cm <br>
+            1748 Boulevard st LA <br>
+        </address>
+        &copy; <abbr title="SilverStar">SS</abbr>
+    </footer>
+
     <hr>
     <details>
         <summary>General declaration</summary>
         <p>The images displayed in the webpage are taken from the website "unsplashed".<br>
             In no way or form does this website claim ownership of the multimedia displayed.<br>
             Creators have been credited accordingly.
+            <br>
+            <div>
+                <a href="https://www.flaticon.com/free-icons/education" title="education icons" tabindex="2" target="_blank">Education icons created by Freepik - Flaticon</a>
+            </div>
         </p>
     </details>
     <hr>
