@@ -1,0 +1,39 @@
+mark
+{
+    background-color: aquamarine;
+}
+
+body
+{
+    background-color: rgb(224, 224, 224);
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+.content
+{
+    text-align: center;
+}
+
+.media
+{
+    width: 75%;
+}
+
+button
+{
+    background-color: darkgray;
+    border-radius: 8px;
+    align-content: center;
+}
+
+.button1
+{
+    text-align: center;
+}
+
+.review-heading
+{
+    font-size: x-large;
+    text-align: center;
+}
