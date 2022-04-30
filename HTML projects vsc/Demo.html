@@ -7,7 +7,7 @@
     <meta name="author" content="Ani Soma">
     <meta name="description" content="lorem ipsum">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image" href="sword.png">
+    <link rel="icon" href="sword.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
     <title>Lorem Ipsum</title>
 </head>
@@ -19,24 +19,28 @@
         <h1>Lorem Ipsum</h1>
         <div>Designed and developed by <b>Ani Soma</b> (<abbr title="SilverStar">SS</abbr>) </div>
         <hr>
-        <h2>This is the <mark ><i>beginning!</i></mark></h2>
+        <h2>This is the <mark><i>beginning!</i></mark></h2>
         <hr>
-        <h2><i>Navigation <mark>Links:</i><mark></mark></h2>
-        <section class="content">
+        <h2><i>Navigation <mark>Links:</mark></i></h2>
+        <div class="content">
         <nav>
+        <!--target="_blank is used to open the link in a new tab"-->
             <a href="#">Troll link lmao</a> <br><br>
             <a href="#foot" tabindex="1">
-                <button style="background-color: darkgray;border-radius: 5px;">
                 Jump to the Bottom
-                </button>
             </a> 
             <br><br>  
         </nav>
-        </section>
+        </div>
     </header>
         
-    <section class="content">
-        <p>Click right <a href="#earth" tabindex="1">here</a> to view the Earth rotating.</p><br>
+    <div class="content">
+
+        <form style="display: inline" action="#earth" method="get">
+            <label>Click here to view the Earth rotating : </label>
+            <button>View</button>
+        </form>
+
         <hr><div style="color: rgb(44, 50, 50);">"All It Takes Is One Bad Day To Reduce The Sanest Man Alive To Lunacy."</div><hr>
         <figure>
 
@@ -47,13 +51,13 @@
 
             <br><br>
 
-            <figcaption>Earth</figcaption>
+            <div>Earth</div>
             <a href= "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" target="_blank">
                 <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" class="media" alt="Programming">
             </a> 
             <br><br>
             
-            <figcaption>Earth Rotating</figcaption>
+            <div>Earth Rotating</div>
             <video id="earth" src="Earth.mp4#t=0,10" class="media" autoplay controls loop>
                 Your browser does not support the <code>video</code> :(
             </video>
@@ -61,19 +65,18 @@
  
         </figure>
         <hr>
-        <a href="FProject.html" target="_blank">
-            <button style="background-color: darkgrey;border-radius: 5px;">
-                Final Project 
-            </button>
-        </a>
-        <hr><br>
-        <div style="font-size: x-large;">
+        <form style="display: inline" action="FProject.html" method="get" target="_blank">
+            <button>Final Project</button>
+        </form>
+        
+    </div>
+    <hr><br>
+    <div id="Review_and_data">
+        
+        <div class="review-heading">
             <mark><i><b>Feedback Form:</b></i></mark>
         </div>
         <br><hr>
-    </section>
-    
-    <section id="Review_and_data">
     <form>
         <label for="feedback">Thoughts about the Webpage?</label>
         <input type="text" id="feedback" required placeholder="Feedback">
@@ -83,7 +86,7 @@
         <br>
         <hr>
         <div>
-            <label for="exp">How was your experience with the accessibility of the webpage :</label>
+            <div>How was your experience with the accessibility of the webpage :</div>
         <br>
         <label for="Good">Good</label>
         <input type="radio" id="Good" name="exp" value="G"><br>
@@ -112,12 +115,12 @@
             <br><hr>
         </div>
 
-        <center>
-            <button style="background-color: darkgray;border-radius: 5px;" type="submit">Submit</button>
-        </center><hr>
+        <div class="button1">
+        <button type="submit">Submit</button>
+        </div><hr>
 
     </form>
-    </section>
+</div>
 
     <footer id="foot">
         <address>
@@ -131,16 +134,18 @@
     <hr>
     <details>
         <summary>General declaration</summary>
-        <p>The images displayed in the webpage are taken from the website "unsplashed".<br>
+            <br>
+            The images displayed in the webpage are taken from the website <a href="https://unsplash.com/" target="_blank">Unsplash.</a><br>
             In no way or form does this website claim ownership of the multimedia displayed.<br>
             Creators have been credited accordingly.
-            <br>
+            <br><br>
             <div>
                 <a href="https://www.flaticon.com/free-icons/education" title="education icons" tabindex="2" target="_blank">Education icons created by Freepik - Flaticon</a>
             </div>
-        </p>
+        
     </details>
     <hr>
     </main>
 </body>
 </html>
+
