@@ -10,6 +10,13 @@ body
     font-size: medium;
 }
 
+button
+{
+    background-color: darkgray;
+    border-radius: 8px;
+    align-content: center;
+}
+
 .content
 {
     text-align: center;
@@ -18,13 +25,6 @@ body
 .media
 {
     width: 75%;
-}
-
-button
-{
-    background-color: darkgray;
-    border-radius: 8px;
-    align-content: center;
 }
 
 .button1
