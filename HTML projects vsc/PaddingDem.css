@@ -1,0 +1,102 @@
+.text 
+{
+    text-align: center;
+    font-size: 85%;
+    padding-bottom: 5%;
+}
+
+.box
+{
+    border-style: solid;
+    border-color: rgb(221, 214, 214);
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 2%;
+    background-color: rgb(221, 214, 214);
+    padding-bottom: 27%;
+}
+
+.child
+{
+    float: left;
+    width: 33%;
+}
+
+.candy
+{
+    background-color: rgb(239, 180, 180);
+    width: 65%;
+    padding: 5px;
+    margin-top: 2%;
+    
+
+}
+
+.diamond
+{
+    background-color: rgb(151, 187, 244);
+    width: 65%;
+    padding: 5px;
+    margin-top: 2%;
+}
+
+.sword
+{
+    background-color: rgb(177, 215, 240);
+    width: 65%;
+    padding: 5px;
+    margin-top: 2%;
+}
+
+.boat
+{
+    background-color: rgb(253, 253, 253);
+    width: 65%;
+    padding: 5px;
+    margin-top: 2%;
+}
+
+.gift
+{
+    background-color: rgb(210, 189, 218);
+    width: 65%;
+    padding: 5px;
+    margin-top: 2%;
+}
+
+.house
+{
+    background-color: rgb(210, 189, 218);
+    width: 65%;
+    padding: 5px;
+    margin-top: 2%;
+}
+
+.mountain
+{
+    background-color: rgb(252, 252, 252);
+    width: 65%;
+    padding: 5px;
+    margin-top: 2%;
+}
+
+.pine
+{
+    background-color: rgb(209, 245, 176);
+    width: 65%;
+    padding: 5px;
+    margin-top: 2%;
+}
+
+.star
+{
+    background-color: rgb(236, 247, 197);
+    width: 65%;
+    padding: 5px;
+    margin-top: 2%;
+}
+
+
+/*background-color: rgb(221, 214, 214);*/
