@@ -98,5 +98,35 @@
     margin-top: 2%;
 }
 
+.container
+{
+    background-color: azure;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: solid;
+    /* margin-left: 25%; */
+    /* margin-right: 25%; */
+    width: max-content;
+       
+}
+
+.childx
+{
+    width:200px;
+    border-radius: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
+}
+
+.imgx{
+    display: inline;
+}
+ul{
+    margin-left: none;
+    padding-left: none;
+    padding-inline-start: 0px;
+}
 
 /*background-color: rgb(221, 214, 214);*/
