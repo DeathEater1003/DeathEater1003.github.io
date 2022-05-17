@@ -98,6 +98,12 @@
     margin-top: 2%;
 }
 
+.Big_container
+{
+    display: flex;
+    justify-content: center;    
+}
+
 .container
 {
     background-color: azure;
