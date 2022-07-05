@@ -17,15 +17,26 @@
     <main>
 
     <header>
-        <h1>Lorem Ipsum</h1>
+        <h1><u>Lorem Ipsum</u></h1>
+        <h6>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloribus quibusdam placeat amet cupiditate nobis perspiciatis odit, obcaecati aperiam? Ducimus delectus quibusdam dolorem natus reiciendis?
+        </h6>
         <div>Designed and developed by <b>Ani Soma</b> (<abbr title="SilverStar">SS</abbr>) </div>
         <hr>
         <h2>This is the <mark><i>beginning!</i></mark></h2>
         <hr>
         <h2><i>Navigation <mark>Links:</mark></i></h2>
-        <div class="content">
+        <div title="Nav" class="content">
         <nav>
-        <!--target="_blank is used to open the link in a new tab"-->
+        <!--target="_blank" is used to open the link in a new tab-->
+
+        <!-- use ctrl+f for finding a variable/word
+             ctrl+g to go to a specific line
+             ctrl+l to select the current line
+             shift+alt+a to create a block comment
+             ctrl+hover to visit the css of the respective id/class
+             :)
+        -->
             <a href="#">Troll link lmao</a> <br><br>
             <a href="#foot" tabindex="1">
                 Jump to the Bottom
@@ -37,66 +48,44 @@
         
     <div class="content">
 
-        <form style="display: inline" action="#earth" method="get">
-            <label>Click here to view the Earth rotating : </label>
-            <button type="button">View</button>
+        
+        <form style="display: inline" action="#earth" method="get" target="_self">
+            <label>Watch the Earth roatating: </label>
+            <button>View</button>
         </form>
 
-        <hr><div style="color: rgb(44, 50, 50);">"All It Takes Is One Bad Day To Reduce The Sanest Man Alive To Lunacy."</div><hr>
-        
-        
-        <div class="box">
-            <div class="text"><b>Icon Pictures</b></div>
+        <hr><div style="color: rgb(44, 50, 50);"><strong>"All It Takes Is One Bad Day To Reduce The Sanest Man Alive To Lunacy."</strong></div><hr>
 
-            <div class="child">
-                <img src="Images/diamond.png" alt="diamond" class="diamond">
+        <div class="Big_container">
+            <div class="container2">
+                <div class="Heading"><em><strong>Icon Pictures</strong></em></div>
+                    <ul>
+                        <li class="imgx"><img class="child_ diamond" src="Images/diamond.png"></li>
+                        <li class="imgx"><img class="child_ candy" src="Images/candy.png"></li>
+                        <li class="imgx"><img class="child_ gift" src="Images/gift.png"></li>
+                    </ul>
+                    <ul>
+                        <li class="imgx"><img class="child_ mountain" src="Images/mountain.png"></li>
+                        <li class="imgx"><img class="child_ star" src="Images/star.png"></li>
+                        <li class="imgx"><img class="child_ boat" src="Images/boat.png"></li>
+                    </ul>
+                    <ul>
+                        <li class="imgx"><img class="child_ house" src="Images/house.png"></li>
+                        <li class="imgx"><img class="child_ pine" src="Images/pine-tree.png"></li>
+                        <li class="imgx"><img class="child_ sword" src="Images/sword.png"></li>
+                    </ul>
             </div>
-
-            <div class="child">
-                <img src="Images/candy.png" alt="candy" class="candy">
-            </div>
-
-            <div class="child">
-                <img src="Images/gift.png" alt="gift" class="gift">
-            </div>
-
-            <div class="child">
-                <img src="Images/mountain.png" alt="mountain" class="mountain">
-            </div>
-
-            <div class="child">
-                <img src="Images/star.png" alt="star" class="star">
-            </div>
-
-            <div class="child">
-                <img src="Images/boat.png" alt="boat" class="boat">
-            </div>
-
-            <div class="child">
-                <img src="Images/house.png" alt="house" class="house">
-            </div>
-            
-            <div class="child">
-                <img src="Images/pine-tree.png" alt="pine tree" class="pine">
-            </div>
-
-            <div class="child">
-                <img src="Images/sword.png" alt="sword" class="sword">
-            </div>
-            
-    
         </div>
-
         <hr>
-        
+
         <div class="Big_container">
             <div class="container">
-                <div class="heading"><mark><b><i>Architecture</i></b></mark></div>
+                <div class="heading"><mark><strong><em>Architecture</em></strong></mark></div>
                 <ul>
                     <li class="imgx"><img class="childx" src="Images/arch1.jpg" alt="Modern Architecture"></li>
                     <li class="imgx"><img class="childx" src="Images/arch2.jpg" alt="Modern Architecture"></li>
-                    </ul>
-                    <ul>
+                </ul>
+                <ul>
                     <li class="imgx"><img class="childx" src="Images/arch3.jpg" alt="Modern Architecture"></li>
                     <li class="imgx"><img class="childx" src="Images/arch4.jpg" alt="Modern Architecture"></li>
                 </ul>
@@ -108,7 +97,7 @@
 
             <figcaption style="font-weight: 300;"><b>The Killing Joke</b></figcaption>
             <a href="joker.jpg" target="_blank"> 
-                <img src="joker.jpg" class="media joke" alt="Joker">
+                <img src="joker.jpg" class="media joke" title="The Joker" alt="Joker">
             </a>
 
             <br><br>
@@ -143,7 +132,7 @@
         <label for="feedback">Thoughts about the Webpage?</label>
         <input type="text" id="feedback" required placeholder="Feedback">
         <br><hr>
-        <label for="nl">Subscribe to our weekly newsletter! </label>
+        <label for="nl">Subscribe to our weekly newsletter!</label>
         <input type="email" id="nl" placeholder="xyz@gmail.com">
         <br>
         <hr>
