@@ -16,7 +16,7 @@
 
 .child_
 {
-    width: 23%;
+    width: 20%;
     padding: 5px;
     margin-bottom: -10px;
     border-radius: 5px;
@@ -86,17 +86,16 @@
     border-style: solid;
     /* margin-left: 25%; */
     /* margin-right: 25%; */
-    width: max-content;
-       
+    width: 50%; 
 }
 
 .childx
 {
-    width:200px;
+    width:40%;
     border-radius: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 10px;
+
     
 }
 
@@ -104,11 +103,20 @@
 {
     display: inline;
 }
-ul{
-    margin-left: none;
-    padding-left: none;
-    padding-inline-start: 0px;
+
+.ul1
+{
+    padding-inline-start: 0%;
+    margin-left: -10%;
+    margin-right: -10%;
 }
+
+.ul2
+{
+    padding-inline-start: 0%;
+
+}
+
 
 
 
