@@ -40,8 +40,13 @@
             <a href="#">Troll link lmao</a> <br><br>
             <a href="#foot" tabindex="1">
                 Jump to the Bottom
-            </a> 
-            <br><br>  
+            </a><br><br>
+            <div>
+                Click
+                <a href="#Feedback_form">here</a>
+                to skip to the feedbakc form! 
+            </div>
+            <br>
         </nav>
         </div>
     </header>
@@ -59,17 +64,17 @@
         <div class="Big_container">
             <div class="container2">
                 <div class="Heading"><em><strong>Icon Pictures</strong></em></div>
-                    <ul>
+                    <ul class="ul1">
                         <li class="imgx"><img class="child_ diamond" src="Images/diamond.png" alt="icon_pic"></li>
                         <li class="imgx"><img class="child_ candy" src="Images/candy.png" alt="icon_pic"></li>
                         <li class="imgx"><img class="child_ gift" src="Images/gift.png" alt="icon_pic"></li>
                     </ul>
-                    <ul>
+                    <ul class="ul1">
                         <li class="imgx"><img class="child_ mountain" src="Images/mountain.png" alt="icon_pic"></li>
                         <li class="imgx"><img class="child_ star" src="Images/star.png" alt="icon_pic"></li>
                         <li class="imgx"><img class="child_ boat" src="Images/boat.png" alt="icon_pic"></li>
                     </ul>
-                    <ul>
+                    <ul class="ul1">
                         <li class="imgx"><img class="child_ house" src="Images/house.png" alt="icon_pic"></li>
                         <li class="imgx"><img class="child_ pine" src="Images/pine-tree.png" alt="icon_pic"></li>
                         <li class="imgx"><img class="child_ sword" src="Images/sword.png" alt="icon_pic"></li>
@@ -81,11 +86,11 @@
         <div class="Big_container">
             <div class="container">
                 <div class="heading"><mark><strong><em>Architecture</em></strong></mark></div>
-                <ul>
+                <ul class="ul2">
                     <li class="imgx"><img class="childx" src="Images/arch1.jpg" alt="Modern Architecture"></li>
                     <li class="imgx"><img class="childx" src="Images/arch2.jpg" alt="Modern Architecture"></li>
                 </ul>
-                <ul>
+                <ul class="ul2">
                     <li class="imgx"><img class="childx" src="Images/arch3.jpg" alt="Modern Architecture"></li>
                     <li class="imgx"><img class="childx" src="Images/arch4.jpg" alt="Modern Architecture"></li>
                 </ul>
@@ -116,7 +121,7 @@
  
         </figure>
         <hr>
-        <form style="display: inline" action="FProject.html" method="get" target="_blank">
+        <form style="display: inline" action="FProject.html" method="get" target="_self">
             <button>Final Project</button>
         </form>
         
@@ -128,7 +133,7 @@
             <mark><i><b>Feedback Form:</b></i></mark>
         </div>
         <br><hr>
-    <form>
+    <form id="Feedback_form">
         <label for="feedback">Thoughts about the Webpage?</label>
         <input type="text" id="feedback" required placeholder="Feedback">
         <br><hr>
