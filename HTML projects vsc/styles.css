@@ -7,14 +7,34 @@ body
 {
     background-color: rgb(224, 224, 224);
     font-family: 'Montserrat', sans-serif;
-    font-size: medium;
+    font-size: 90%;
 }
 
 button
 {
     background-color: darkgray;
+    border-color: darkgray;
     border-radius: 8px;
     align-content: center;
+}
+
+.Review_and_data
+{
+    background-color: rgb(231, 237, 243);
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-style:solid;
+    border-color: rgb(222, 237, 239);
+    border-width: 2px;
+}
+
+#addr
+{
+    font-weight: bolder;
 }
 
 .content
@@ -27,6 +47,14 @@ button
     width: 75%;
 }
 
+.joke
+{
+    border-color: rgb(47, 48, 48);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 5px;
+}
+
 .button1
 {
     text-align: center;
@@ -35,5 +63,18 @@ button
 .review-heading
 {
     font-size: x-large;
+    text-align: center;
+}
+
+table
+{
+    table-layout: fixed;
+    width: 33%;
+    
+}
+
+td
+{
+    width: 25%;
     text-align: center;
 }
