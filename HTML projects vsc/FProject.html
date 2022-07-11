@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image" href="Images/diamond.png">
+    <link rel="icon" type="image" href="images/diamond.png">
+    <link rel="stylesheet" href="styles.css">
     <title>Final Project</title>
 </head>
 <body>
@@ -15,14 +16,21 @@
         <a href="https://www.twitter.com">Three</a>
         <a href="https://www.reddit.com">Four</a>
     </nav>
+    <hr>
+    <div class="button1">
+    <form id="f1" style="display: inline;" action="Demo.html#nav_tags" method="get" target="_self">
+        <button>Go Back</button>
+    </form>
+    </div>
+    <hr>
     <section>
         <h2>Favorite foods</h2>
-        <ul>
+        <ol>
             <li>Pizza</li>
             <li>Fries</li>
             <li>Cake</li>
             <li>Ice cream</li>
-        </ul>
+        </ol>
     </section>
 
     <section>
@@ -36,7 +44,31 @@
         <label for="progress_life">Progress in life goals (50%)</label>
         <progress id="progress_course" value="50" max="100">50%</progress>
     </section>
-
+    <br><hr>
+    <div>
+        <strong>Punnett Square:</strong> 
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td> </td>
+                    <td>T</td>
+                    <td>t</td>
+                </tr>
+                <tr>
+                    <td>T</td>
+                    <td>TT</td>
+                    <td>Tt</td>
+                </tr>
+                <tr>
+                    <td>t</td>
+                    <td>Tt</td>
+                    <td>tt</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+    <hr>
     <section>
         <h2>More about me</h2>
         <details>
@@ -51,7 +83,7 @@
     <figure>
         <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="WD4E">
     </figure>
-    <p>
+    <p id="ending">
         This page was created by Anirudh &amp; Collen Van Lent. To learn more about web design,
         visit <a href="http://www.intro-webdesign.com.">Into to web design</a>.
     </p>
